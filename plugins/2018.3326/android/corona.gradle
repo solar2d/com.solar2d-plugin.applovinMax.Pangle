@@ -1,0 +1,8 @@
+repositories {
+	jcenter()
+	mavenCentral()
+	maven { url "https://artifact.bytedance.com/repository/pangle" }
+}
+dependencies {
+		 implementation 'com.applovin.mediation:bytedance-adapter:4.2.5.1.0'
+}
