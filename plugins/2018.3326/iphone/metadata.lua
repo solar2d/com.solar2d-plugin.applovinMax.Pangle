@@ -6,9 +6,9 @@ local metadata =
 
 		-- This is the name without the 'lib' prefix.
 		-- In this case, the static library is called: libSTATIC_LIB_NAME.a
-		staticLibs = { "c++", "sqlite3", "iconv", "objc", "z", "bz2", "sqlite3", "resolv.9", "BUVAAuxiliary", "BUFoundation", "BUAdSDK", "AppLovinMediationByteDanceAdapter"},
+		staticLibs = {"ByteDanceAdapter","BUAdSDK", "BURelyAdSDK", "BURelyFoundation_Global", "PAGAdSDK1", "PAGAdSDK2", "resolv", "z", "iconv", "bz2.1.0", "c++abi", "c++", "bz2", "xml2"},
 
-		frameworks = {"CoreTelephony", "MobileCoreServices", "WebKit"},
+		frameworks = {"DeviceCheck"},
 		frameworksOptional = {},
 	},
 	coronaManifest = {
