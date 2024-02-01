@@ -8,7 +8,7 @@ local metadata =
 		-- In this case, the static library is called: libSTATIC_LIB_NAME.a
 		staticLibs = {"ByteDanceAdapter", "BURelyAdSDK", "PAGAdSDK1", "PAGAdSDK2", "BURelyFoundation_Global", "resolv", "z", "iconv", "bz2.1.0", "c++abi", "c++", "bz2", "xml2"},
 
-		frameworks = {"DeviceCheck"},
+		frameworks = {"DeviceCheck", "Accelerate"},
 		frameworksOptional = {},
 	},
 	coronaManifest = {
